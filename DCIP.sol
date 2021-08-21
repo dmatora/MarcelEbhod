@@ -927,7 +927,7 @@ contract DCIP is Context, IBEP20, Ownable {
     uint256 public _taxFee = 10;
     uint256 private _previousTaxFee = _taxFee;
 
-    uint256 public _liquidityFee = 3;
+    uint256 public _liquidityFee = 5;
     uint256 private _previousLiquidityFee = _liquidityFee;
 
     IPancakeRouter02 public immutable pancakeRouter;
